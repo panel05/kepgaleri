@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 70%;
+}
+article .oszlop1{
+    flex: 0 0 30%;
+    gap: 5px;
+}
+aside{
+    flex: 0 0 10%;
+}
+nav, footer{
+    display: flex;
+    flex: 0 0 100%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+li a{
+    color: yellow;
+}
+
+article img{
+    width: 100%;
+    padding: 5px;
+}
